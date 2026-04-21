@@ -1,0 +1,21 @@
+{
+  "schema_version": "1",
+  "id": "replay-test",
+  "display_name": "Replay Test",
+  "version": "1.0.0",
+  "namespace": "project.replay-test",
+  "backend": {
+    "entry_point": "agentforge_replay.plugin:register",
+    "routes_prefix": "/api/replay-test",
+    "resource_providers": []
+  },
+  "agents": [
+    {"name": "replay-test-agent", "path": "agentforge_replay/agents/replay_test_agent"}
+  ],
+  "frontend": {
+    "remote_url": "",
+    "nav_label": "Replay Test",
+    "nav_icon": "History",
+    "route": "/replay-test"
+  }
+}
