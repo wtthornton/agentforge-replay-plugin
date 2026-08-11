@@ -3,7 +3,6 @@ name: replay-test-agent
 namespace: project.replay-test.replay-test-agent
 description: Test agent for AgentForge event-store replay rig.
 keywords: [replay, events, store, test]
-runner: agentforge_replay.agents.replay_test_agent.runner:ReplayRunner
 ---
 
 # Replay Test Agent
